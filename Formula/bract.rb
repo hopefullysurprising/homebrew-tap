@@ -1,25 +1,25 @@
 class Bract < Formula
   desc "A TUI that turns your CLI toolchain into a guided, browsable command palette."
   homepage "https://github.com/hopefullysurprising/bract"
-  version "0.9.0"
+  version "0.10.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hopefullysurprising/bract/releases/download/v0.9.0/bract-aarch64-apple-darwin.tar.xz"
-      sha256 "f36b6bdc16071e1fc7ea641e4428f4fb7ed7e4fb4010c860e235aa74daf15e71"
+      url "https://github.com/hopefullysurprising/bract/releases/download/v0.10.0/bract-aarch64-apple-darwin.tar.xz"
+      sha256 "2910d9029d91fe69231206a2233f10f013c5fb7710d2c16903a0ec8b9c6268bd"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hopefullysurprising/bract/releases/download/v0.9.0/bract-x86_64-apple-darwin.tar.xz"
-      sha256 "f55b5c8c5035d7b0aa21f36243a2808103e24050fa71132661353148d2c16b82"
+      url "https://github.com/hopefullysurprising/bract/releases/download/v0.10.0/bract-x86_64-apple-darwin.tar.xz"
+      sha256 "dbf7978e08667361d9335ba73f5c68323c173c7a521a251f49bc03c0b07d9ae3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hopefullysurprising/bract/releases/download/v0.9.0/bract-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "64a1f56d64f861ec12968f2735b6d271f21ca65ccea39c56317bcb022958d603"
+      url "https://github.com/hopefullysurprising/bract/releases/download/v0.10.0/bract-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8501d337e93076b89572c96b5ccab80ad601e47ae709729d3d539a179238d7d5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hopefullysurprising/bract/releases/download/v0.9.0/bract-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "68fc4f6b6e34cf3cbc05ca904b66106dda9960e966245e07ce1ec8e3548adbc7"
+      url "https://github.com/hopefullysurprising/bract/releases/download/v0.10.0/bract-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d99c5c6093a97a63ae47e8411babbb69c8d95dbe2ca4afa82fe11e06379268a9"
     end
   end
   license "GPL-3.0-only"
